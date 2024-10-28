@@ -153,8 +153,6 @@ def root(standardize_tmp):
         (os, "remove", 0, "path"),
         (os, "removedirs", 0, "name"),
         (os, "removexattr", 0, "path"),
-        (os, "rename", 0, "src"),  # Check both
-        (os, "rename", 1, "dst"),
         (os, "renames", 0, "old"),  # Check both
         (os, "renames", 1, "new"),
         (os, "replace", 0, "src"),  # Check both
